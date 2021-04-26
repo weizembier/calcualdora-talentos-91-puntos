@@ -4,32 +4,32 @@ var imgPath = "/talentcalcs/wotlk";
 var pixelGif = "/talentcalcs/shared/images/pixel.gif";
 var origin_url   = window.location.origin;
 
-var textLevelRequired = "Level Required:";
+var textLevelRequired = "Nivel Requerido:";
 var textPointsLeft = "Points Left:";
 var textPointsSpent = "Points Spent:";
-var textPoint = "point";
-var textPoints = "points";
+var textPoint = "punto";
+var textPoints = "puntos";
 var textColon = ":";
-var textLeftClick = "Click to Learn";
-var textRightClick = "Right Click to Unlearn";
-var textRankColon = "Rank:"
+var textLeftClick = "Haz click para aprender mas";
+var textRightClick = "Clic derecho para desaprender";
+var textRankColon = "Rango:"
 var textToSave = ""; //"Link to this build:";
-var textNextRank = "Next Rank:";
-var requiresRequires = "Requires";
-var requiresPointsIn = "points in";
-var requiresTalents = "Talents";
+var textNextRank = "Siguiente Rango:";
+var requiresRequires = "Requerido";
+var requiresPointsIn = "puntos en";
+var requiresTalents = "Talentos";
 //var theURLtoCopy = "" + origin_url + "/calcualdora-talentos-91-puntos/wotlk/" + nlclass + "?";
 
 function getStringRequires(requirementPoints, requirementName) {
 	theS = "s";
 	if (requirementPoints == 1)
 		theS = "";
-	var theString = 'Requires '+ requirementPoints +' point'+ theS +' in '+ requirementName;
+	var theString = 'Requerido '+ requirementPoints +' punto'+ theS +' en '+ requirementName;
 	return theString;
 }
 
 function getStringRequiresTalents(requirementPoints, requirementName) {
-	var theString = 'Requires '+ requirementPoints +' points in '+ requirementName +' Talents';
+	var theString = 'Requeridos '+ requirementPoints +' puntos en '+ requirementName +' Talentos';
 	return theString
 }
 

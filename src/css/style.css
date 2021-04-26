@@ -302,7 +302,7 @@ div.reset {
 }
 
 #replaceMeWithTalents table.TalentTooltip {
-	background: url(images/tooltip.png);
+	background: url(../images/tooltip.png);
 	border-radius: 6px;
 	border:solid 2px #6d6c6d!important;
 }
@@ -406,15 +406,15 @@ font-weight: bold;
 }
 /* end of bar */
 /* class colors */
-.druid {color: #FF7C0A!important;}
-.hunter {color: #AAD372!important;}
-.mage {color: #68CCEF!important;}
+.druida {color: #FF7C0A!important;}
+.cazador {color: #AAD372!important;}
+.mago {color: #68CCEF!important;}
 .paladin {color: #F48CBA!important;}
-.priest {color: #FFF!important;}
-.rogue {color: #FFF468!important;}
-.shaman {color: #2359FF!important;}
-.warlock {color: #9382C9!important;}
-.warrior {color: #C69B6D!important;}
+.sacerdote {color: #FFF!important;}
+.picaro {color: #FFF468!important;}
+.chaman {color: #2359FF!important;}
+.brujo {color: #9382C9!important;}
+.guerrero {color: #C69B6D!important;}
 /* end of class colors */
 div#replaceMeWithTalents table,div#replaceMeWithTalents td {
 	box-shadow: none;

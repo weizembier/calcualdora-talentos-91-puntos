@@ -1,7 +1,7 @@
 var i = 0;
 var t = 0;
 
-var nlclass = "warrior";
+var nlclass = "guerrero";
 var nlclassPatch = "warrior";
 
 nltree[i] = "Arms"; i++;

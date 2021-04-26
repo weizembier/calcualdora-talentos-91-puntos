@@ -4,9 +4,9 @@ var t = 0;
 var className = "Warrior Talents";
 //var talentPath = "/info/basics/talents/";
 
-tree[i] = "Arms"; i++;
-tree[i] = "Fury"; i++;
-tree[i] = "Protection"; i++;
+tree[i] = "Armas"; i++;
+tree[i] = "Furia"; i++;
+tree[i] = "Proteccion"; i++;
 
 i = 0;
 
