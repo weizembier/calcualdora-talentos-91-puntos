@@ -167,9 +167,9 @@ for (var printTreeID = 0; printTreeID < numberOfTrees; printTreeID++) {
 
 						//This is if the talent can't have points..?
 						if (rankTop[i][0] == 0)							
-							massiveReplaceString += '<div id = "talentThumb'+ i +'" style = "visibility: hidden; position: relative;"><div id = "wrapper49"><img src = "../src/class/'+ nlclass + '/images/' + treeName +'/'+ imageName +'.jpg" border = "0" '+ iconSize+'></div></div>';
+							massiveReplaceString += '<div id = "talentThumb'+ i +'" style = "visibility: hidden; position: relative;"><div id = "wrapper49"><img src = "/images/' + treeName +'/'+ imageName +'.jpg" border = "0" '+ iconSize+'></div></div>';
 						else
-							massiveReplaceString += '<div id = "talentThumb'+ i +'" style = "position: relative"><div id = "wrapper49"><img src = "../src/class/'+ nlclass + '/images/' + treeName +'/'+ imageName +'.jpg" border = "0" '+ iconSize+'></div></div>';
+							massiveReplaceString += '<div id = "talentThumb'+ i +'" style = "position: relative"><div id = "wrapper49"><img src = "/images/' + treeName +'/'+ imageName +'.jpg" border = "0" '+ iconSize+'></div></div>';
 							
 							
 							
