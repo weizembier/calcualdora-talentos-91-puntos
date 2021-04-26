@@ -349,11 +349,11 @@ function changeCopyURL(){
 
 	templateString = "";
 
-	for (i = 0; talent[i]; i++) {
+	/*for (i = 0; talent[i]; i++) {
 		templateString = templateString + rankTop[i][0]
 	}
 	history.pushState(null, null, '/calcualdora-talentos-91-puntos/wotlk/'+ nlclass + '?' + templateString);
-    document.getElementById('copyURL').innerHTML = '<a href="' + theURLtoCopy + templateString + '">' + theURLtoCopy + templateString + '</a>';	
+    document.getElementById('copyURL').innerHTML = '<a href="' + theURLtoCopy + templateString + '">' + theURLtoCopy + templateString + '</a>';	*/
 
 }
 
