@@ -155,21 +155,21 @@ for (var printTreeID = 0; printTreeID < numberOfTrees; printTreeID++) {
 
 						//This has to do with "if the talent has points
 						if (rankTop[i][0] >= 1)
-							massiveReplaceString += '<div id = "iconOverGreen'+ i +'" style = "position: relative; z-index:50;"><div id = "iconOver"><img src = "../../images/talents/icon-over-green.gif" border = "0" /></div></div>';
+							massiveReplaceString += '<div id = "iconOverGreen'+ i +'" style = "position: relative; z-index:50;"><div id = "iconOver"><img src = "../src/images/talents/icon-over-green.gif" border = "0" /></div></div>';
 						else
-							massiveReplaceString += '<div id = "iconOverGreen'+ i +'" style = "visibility:hidden; position: relative; z-index:50;"><div id = "iconOver"><img src = "../../images/talents/icon-over-green.gif" border = "0"></div></div>';
+							massiveReplaceString += '<div id = "iconOverGreen'+ i +'" style = "visibility:hidden; position: relative; z-index:50;"><div id = "iconOver"><img src = "../src/images/talents/icon-over-green.gif" border = "0"></div></div>';
 
 						//This is if the talent has max points
 						if (rankTop[i][0] == talent[i][2])
-							massiveReplaceString += '<div id = "iconOverYellow'+ i +'" style = "position: relative; z-index:50;"><div id = "iconOver"><img src = "../../images/talents/icon-over-yellow.gif" border = "0"></div></div>';
+							massiveReplaceString += '<div id = "iconOverYellow'+ i +'" style = "position: relative; z-index:50;"><div id = "iconOver"><img src = "../src/images/talents/icon-over-yellow.gif" border = "0"></div></div>';
 						else 
-							massiveReplaceString += '<div id = "iconOverYellow'+ i +'" style = "visibility:hidden; position: relative; z-index:50;"><div id = "iconOver"><img src = "../../images/talents/icon-over-yellow.gif" border = "0"></div></div>';
+							massiveReplaceString += '<div id = "iconOverYellow'+ i +'" style = "visibility:hidden; position: relative; z-index:50;"><div id = "iconOver"><img src = "../src/images/talents/icon-over-yellow.gif" border = "0"></div></div>';
 
 						//This is if the talent can't have points..?
 						if (rankTop[i][0] == 0)							
-							massiveReplaceString += '<div id = "talentThumb'+ i +'" style = "visibility: hidden; position: relative;"><div id = "wrapper49"><img src = "../../class/'+ nlclass + '/images/' + treeName +'/'+ imageName +'.jpg" border = "0" '+ iconSize+'></div></div>';
+							massiveReplaceString += '<div id = "talentThumb'+ i +'" style = "visibility: hidden; position: relative;"><div id = "wrapper49"><img src = "../src/class/'+ nlclass + '/images/' + treeName +'/'+ imageName +'.jpg" border = "0" '+ iconSize+'></div></div>';
 						else
-							massiveReplaceString += '<div id = "talentThumb'+ i +'" style = "position: relative"><div id = "wrapper49"><img src = "../../class/'+ nlclass + '/images/' + treeName +'/'+ imageName +'.jpg" border = "0" '+ iconSize+'></div></div>';
+							massiveReplaceString += '<div id = "talentThumb'+ i +'" style = "position: relative"><div id = "wrapper49"><img src = "../src/class/'+ nlclass + '/images/' + treeName +'/'+ imageName +'.jpg" border = "0" '+ iconSize+'></div></div>';
 							
 							
 							
