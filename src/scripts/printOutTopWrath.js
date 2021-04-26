@@ -144,9 +144,9 @@ for (var printTreeID = 0; printTreeID < numberOfTrees; printTreeID++) {
 						
 						massiveReplaceString += '</div></td></tr></table></td><td bgcolor = "#a5a5a5" width = "1"><div style = "width: 1px;"></div></td></tr><tr><td></td><td bgcolor = "#4f4f4f" height = "2"></td><td></td></tr></table></div></div></div>';
 						
-						massiveReplaceString += '<div style = "z-index: 99999; position: relative;"><div style = "top: -2px; left: -2px; position: absolute;"><img src = "../../images/pixel.gif" width = "50px" height = "50px" border = "0" onClick = "rankTopOnClick('+ i +');" onMouseOver = "unhideTalent('+ i +');" onMouseOut = "hideTalent('+ i +');" onContextMenu = "rankTopOnRightClick('+ i +'); return false;" /></div></div>';
+						massiveReplaceString += '<div style = "z-index: 99999; position: relative;"><div style = "top: -2px; left: -2px; position: absolute;"><img src = "../src/images/pixel.gif" width = "50px" height = "50px" border = "0" onClick = "rankTopOnClick('+ i +');" onMouseOver = "unhideTalent('+ i +');" onMouseOut = "hideTalent('+ i +');" onContextMenu = "rankTopOnRightClick('+ i +'); return false;" /></div></div>';
 						
-						massiveReplaceString += '<div style = "z-index: 50; position: relative;"><div style = "top: -2px; left: -2px; position: absolute;"><img src = "../../images/talents/icon-over-grey.gif" border = "0" /></div></div>';
+						massiveReplaceString += '<div style = "z-index: 50; position: relative;"><div style = "top: -2px; left: -2px; position: absolute;"><img src = "../src/images/talents/icon-over-grey.gif" border = "0" /></div></div>';
 
 
 
@@ -210,21 +210,21 @@ for (var printTreeID = 0; printTreeID < numberOfTrees; printTreeID++) {
 							if (thisTalentX == requiredTalentX) {  //up and down
 							
 								if ((thisTalentY - 1) == requiredTalentY) {
-									massiveReplaceString += '<div id = "wrapper50"><div class = "arrowdown1"><img src = "../../images/talents/arrows/down-1-grey.gif"></div></div>';
-									massiveReplaceString += '<div id = "wrapper50"><div class = "arrowdown1"><span id="arrowGreen'+ i +'" style = "visibility:'+ arrowGreenStyle +';"><img src = "../../images/talents/arrows/down-1-green.gif"></span></div></div>';
-									massiveReplaceString += '<div id = "wrapper50"><div class = "arrowdown1"><span id="arrowYellow'+ i +'" style = "visibility: '+ arrowYellowStyle +';"><img src = "../../images/talents/arrows/down-1-yellow.gif"></span></div></div>';
+									massiveReplaceString += '<div id = "wrapper50"><div class = "arrowdown1"><img src = "../src/images/talents/arrows/down-1-grey.gif"></div></div>';
+									massiveReplaceString += '<div id = "wrapper50"><div class = "arrowdown1"><span id="arrowGreen'+ i +'" style = "visibility:'+ arrowGreenStyle +';"><img src = "../src/images/talents/arrows/down-1-green.gif"></span></div></div>';
+									massiveReplaceString += '<div id = "wrapper50"><div class = "arrowdown1"><span id="arrowYellow'+ i +'" style = "visibility: '+ arrowYellowStyle +';"><img src = "../src/images/talents/arrows/down-1-yellow.gif"></span></div></div>';
 								} else if ((thisTalentY - 2) == requiredTalentY) {
-									massiveReplaceString += '<div id = "wrapper50"><div class = "arrowdown2"><img src = "../../images/talents/arrows/down-2-grey.gif"></div></div>';
-									massiveReplaceString += '<div id = "wrapper50"><div class = "arrowdown2"><span id = "arrowGreen'+ i +'" style = "visibility:'+ arrowGreenStyle +';"><img src = "../../images/talents/arrows/down-2-green.gif"></span></div></div>';
-									massiveReplaceString += '<div id = "wrapper50"><div class = "arrowdown2"><span id = "arrowYellow'+ i +'" style = "visibility:'+ arrowYellowStyle +';"><img src = "../../images/talents/arrows/down-2-yellow.gif"></span></div></div>';
+									massiveReplaceString += '<div id = "wrapper50"><div class = "arrowdown2"><img src = "../src/images/talents/arrows/down-2-grey.gif"></div></div>';
+									massiveReplaceString += '<div id = "wrapper50"><div class = "arrowdown2"><span id = "arrowGreen'+ i +'" style = "visibility:'+ arrowGreenStyle +';"><img src = "../src/images/talents/arrows/down-2-green.gif"></span></div></div>';
+									massiveReplaceString += '<div id = "wrapper50"><div class = "arrowdown2"><span id = "arrowYellow'+ i +'" style = "visibility:'+ arrowYellowStyle +';"><img src = "../src/images/talents/arrows/down-2-yellow.gif"></span></div></div>';
 								} else if ((thisTalentY - 3) == requiredTalentY) {
-									massiveReplaceString += '<div id = "wrapper50"><div class = "arrowdown3"><img src = "../../images/talents/arrows/down-3-grey.gif"></div></div>';
-									massiveReplaceString += '<div id = "wrapper50"><div class = "arrowdown3"><span id = "arrowGreen'+ i +'" style = "visibility: '+ arrowGreenStyle +';"><img src = "../../images/talents/arrows/down-3-green.gif"></span></div></div>';
-									massiveReplaceString += '<div id = "wrapper50"><div class = "arrowdown3"><span id = "arrowYellow'+ i +'" style = "visibility: '+ arrowYellowStyle +';"><img src = "../../images/talents/arrows/down-3-yellow.gif"></span></div></div>';
+									massiveReplaceString += '<div id = "wrapper50"><div class = "arrowdown3"><img src = "../src/images/talents/arrows/down-3-grey.gif"></div></div>';
+									massiveReplaceString += '<div id = "wrapper50"><div class = "arrowdown3"><span id = "arrowGreen'+ i +'" style = "visibility: '+ arrowGreenStyle +';"><img src = "../src/images/talents/arrows/down-3-green.gif"></span></div></div>';
+									massiveReplaceString += '<div id = "wrapper50"><div class = "arrowdown3"><span id = "arrowYellow'+ i +'" style = "visibility: '+ arrowYellowStyle +';"><img src = "../src/images/talents/arrows/down-3-yellow.gif"></span></div></div>';
 								} else if ((thisTalentY - 4) == requiredTalentY) {
-									massiveReplaceString += '<div id = "wrapper50"><div class = "arrowdown4"><img src = "../../images/talents/arrows/down-4-grey.gif"></div></div>';
-									massiveReplaceString += '<div id = "wrapper50"><div class = "arrowdown4"><span id = "arrowGreen'+ i +'" style = "visibility:'+ arrowGreenStyle +';"><img src = "../../images/talents/arrows/down-4-green.gif"></span></div></div>';
-									massiveReplaceString += '<div id = "wrapper50"><div class = "arrowdown4"><span id="arrowYellow'+ i +'" style = "visibility:'+ arrowYellowStyle +';"><img src = "../../images/talents/arrows/down-4-yellow.gif"></span></div></div>';
+									massiveReplaceString += '<div id = "wrapper50"><div class = "arrowdown4"><img src = "../src/images/talents/arrows/down-4-grey.gif"></div></div>';
+									massiveReplaceString += '<div id = "wrapper50"><div class = "arrowdown4"><span id = "arrowGreen'+ i +'" style = "visibility:'+ arrowGreenStyle +';"><img src = "../src/images/talents/arrows/down-4-green.gif"></span></div></div>';
+									massiveReplaceString += '<div id = "wrapper50"><div class = "arrowdown4"><span id="arrowYellow'+ i +'" style = "visibility:'+ arrowYellowStyle +';"><img src = "../src/images/talents/arrows/down-4-yellow.gif"></span></div></div>';
 								}
 							} else if (thisTalentY == requiredTalentY) {  //across
 								if (requiredTalentX == (thisTalentX - 1)) {
