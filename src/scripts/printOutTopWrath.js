@@ -228,38 +228,38 @@ for (var printTreeID = 0; printTreeID < numberOfTrees; printTreeID++) {
 								}
 							} else if (thisTalentY == requiredTalentY) {  //across
 								if (requiredTalentX == (thisTalentX - 1)) {
-									massiveReplaceString += '<div id = "wrapper50"><div class = "arrowacrossright"><img src = "../../images/talents/arrows/across-right-grey.gif"></div></div>';
-									massiveReplaceString += '<div id = "wrapper50"><div class = "arrowacrossright"><span id = "arrowGreen'+ i +'" style = "visibility: '+ arrowGreenStyle +';"><img src = "../../images/talents/arrows//across-right-green.gif"></span></div></div>';
-									massiveReplaceString += '<div id = "wrapper50"><div class = "arrowacrossright"><span id = "arrowYellow'+ i +'" style = "visibility: '+ arrowYellowStyle +';"><img src = "../../images/talents/arrows/across-right-yellow.gif"></span></div></div>';
+									massiveReplaceString += '<div id = "wrapper50"><div class = "arrowacrossright"><img src = "../src/images/talents/arrows/across-right-grey.gif"></div></div>';
+									massiveReplaceString += '<div id = "wrapper50"><div class = "arrowacrossright"><span id = "arrowGreen'+ i +'" style = "visibility: '+ arrowGreenStyle +';"><img src = "../src/images/talents/arrows//across-right-green.gif"></span></div></div>';
+									massiveReplaceString += '<div id = "wrapper50"><div class = "arrowacrossright"><span id = "arrowYellow'+ i +'" style = "visibility: '+ arrowYellowStyle +';"><img src = "../src/images/talents/arrows/across-right-yellow.gif"></span></div></div>';
 								} else if (requiredTalentX == (thisTalentX + 1)) {
-									massiveReplaceString += '<div id = "wrapper51"><div class = "arrowacrossleft"><img src = "'+ imgPath +'/images/talents/'+ imgDir +'arrows/across-left-grey.gif"></div></div>';
-									massiveReplaceString += '<div id = "wrapper51"><div class = "arrowacrossleft"><span id = "arrowGreen'+ i +'" style = "visibility: '+ arrowGreenStyle +';"><img src = "../../images/talents/arrows/across-left-green.gif"></span></div></div>';
-									massiveReplaceString += '<div id = "wrapper51"><div class = "arrowacrossleft"><span id = "arrowYellow'+ i +'" style = "visibility: '+ arrowYellowStyle +';"><img src = "../../images/talents/arrows/across-left-yellow.gif"></span></div></div>';
+									massiveReplaceString += '<div id = "wrapper51"><div class = "arrowacrossleft"><img src = "../src/images/talents/arrows/across-left-grey.gif"></div></div>';
+									massiveReplaceString += '<div id = "wrapper51"><div class = "arrowacrossleft"><span id = "arrowGreen'+ i +'" style = "visibility: '+ arrowGreenStyle +';"><img src = "../src/images/talents/arrows/across-left-green.gif"></span></div></div>';
+									massiveReplaceString += '<div id = "wrapper51"><div class = "arrowacrossleft"><span id = "arrowYellow'+ i +'" style = "visibility: '+ arrowYellowStyle +';"><img src = "../src/images/talents/arrows/across-left-yellow.gif"></span></div></div>';
 								}
 							} else if (thisTalentX == (requiredTalentX-1)){
 								if ((thisTalentY - 1) == requiredTalentY) {												
-									massiveReplaceString += '<div id = "wrapper50"><div class = "arrowdownleft"><img src = "../../images/talents/arrows/down-left-grey.gif"></div></div>';
-									massiveReplaceString += '<div id = "wrapper50"><div class = "arrowdownleft"><span id = "arrowGreen'+ i +'" style = "visibility: '+ arrowGreenStyle +';"><img src = "../../images/talents/arrows/down-left-green.gif"></span></div></div>';
-									massiveReplaceString += '<div id = "wrapper50"><div class = "arrowdownleft"><span id = "arrowYellow'+ i +'" style = "visibility: '+ arrowYellowStyle +';"><img src = "../../images/talents/arrows/down-left-yellow.gif"></span></div></div>';
+									massiveReplaceString += '<div id = "wrapper50"><div class = "arrowdownleft"><img src = "../src/images/talents/arrows/down-left-grey.gif"></div></div>';
+									massiveReplaceString += '<div id = "wrapper50"><div class = "arrowdownleft"><span id = "arrowGreen'+ i +'" style = "visibility: '+ arrowGreenStyle +';"><img src = "../src/images/talents/arrows/down-left-green.gif"></span></div></div>';
+									massiveReplaceString += '<div id = "wrapper50"><div class = "arrowdownleft"><span id = "arrowYellow'+ i +'" style = "visibility: '+ arrowYellowStyle +';"><img src = "../src/images/talents/arrows/down-left-yellow.gif"></span></div></div>';
 								} else {
-									massiveReplaceString += '<div id = "wrapper50"><div class = "arrowdown2left"><img src = "../../images/talents/arrows/down-2-left-grey.gif"></div></div>';
-									massiveReplaceString += '<div id = "wrapper50"><div class = "arrowdown2left"><span id = "arrowGreen'+ i +'" style = "visibility: '+ arrowGreenStyle +';"><img src = "../../images/talents/arrows/down-2-left-green.gif"></span></div></div>';
-									massiveReplaceString += '<div id = "wrapper50"><div class = "arrowdown2left"><span id = "arrowYellow'+ i +'" style = "visibility: '+ arrowYellowStyle +';"><img src = "../../images/talents/arrows/down-2-left-yellow.gif"></span></div></div>';
+									massiveReplaceString += '<div id = "wrapper50"><div class = "arrowdown2left"><img src = "../src/images/talents/arrows/down-2-left-grey.gif"></div></div>';
+									massiveReplaceString += '<div id = "wrapper50"><div class = "arrowdown2left"><span id = "arrowGreen'+ i +'" style = "visibility: '+ arrowGreenStyle +';"><img src = "../src/images/talents/arrows/down-2-left-green.gif"></span></div></div>';
+									massiveReplaceString += '<div id = "wrapper50"><div class = "arrowdown2left"><span id = "arrowYellow'+ i +'" style = "visibility: '+ arrowYellowStyle +';"><img src = "../src/images/talents/arrows/down-2-left-yellow.gif"></span></div></div>';
 								}
 							} else if ((thisTalentX-1) == requiredTalentX) {								
 								if ((thisTalentY - 1) == requiredTalentY) {				
-									massiveReplaceString += '<div id = "wrapper50"><div class = "arrowdownright"><img src = "../../images/talents/arrows/down-right-grey.gif"></div></div>';
-									massiveReplaceString += '<div id = "wrapper50"><div class = "arrowdownright"><span id = "arrowGreen'+ i +'" style = "visibility: '+ arrowGreenStyle +';"><img src = "../../images/talents/arrows/down-right-green.gif"></span></div></div>';
-									massiveReplaceString += '<div id = "wrapper50"><div class = "arrowdownright"><span id = "arrowYellow'+ i +'" style = "visibility:'+ arrowYellowStyle +';"><img src = "../../images/talents/arrows/down-right-yellow.gif"></span></div></div>';
+									massiveReplaceString += '<div id = "wrapper50"><div class = "arrowdownright"><img src = "../src/images/talents/arrows/down-right-grey.gif"></div></div>';
+									massiveReplaceString += '<div id = "wrapper50"><div class = "arrowdownright"><span id = "arrowGreen'+ i +'" style = "visibility: '+ arrowGreenStyle +';"><img src = "../src/images/talents/arrows/down-right-green.gif"></span></div></div>';
+									massiveReplaceString += '<div id = "wrapper50"><div class = "arrowdownright"><span id = "arrowYellow'+ i +'" style = "visibility:'+ arrowYellowStyle +';"><img src = "../src/images/talents/arrows/down-right-yellow.gif"></span></div></div>';
 								} else {
-									massiveReplaceString += '<div id = "wrapper50"><div class = "arrowdown2right"><img src = "../../images/talents/arrows/down-2-right-grey.gif"></div></div>';
-									massiveReplaceString += '<div id = "wrapper50"><div class = "arrowdown2right"><span id = "arrowGreen'+ i +'" style = "visibility: '+ arrowGreenStyle +';"><img src = "../../images/talents/arrows/down-2-right-green.gif"></span></div></div>';
-									massiveReplaceString += '<div id = "wrapper50"><div class = "arrowdown2right"><span id = "arrowYellow'+ i +'" style = "visibility:'+ arrowYellowStyle +';"><img src = "../../images/talents/arrows/down-2-right-yellow.gif"></span></div></div>';									
+									massiveReplaceString += '<div id = "wrapper50"><div class = "arrowdown2right"><img src = "../src/images/talents/arrows/down-2-right-grey.gif"></div></div>';
+									massiveReplaceString += '<div id = "wrapper50"><div class = "arrowdown2right"><span id = "arrowGreen'+ i +'" style = "visibility: '+ arrowGreenStyle +';"><img src = "../src/images/talents/arrows/down-2-right-green.gif"></span></div></div>';
+									massiveReplaceString += '<div id = "wrapper50"><div class = "arrowdown2right"><span id = "arrowYellow'+ i +'" style = "visibility:'+ arrowYellowStyle +';"><img src = "../src/images/talents/arrows/down-2-right-yellow.gif"></span></div></div>';									
 								}
 							}
 							
 						}
-							massiveReplaceString += '<img src = "../../class/'+ nlclass + '/images/' + treeName +'/'+ imageName +'-off.jpg"border = "0" '+ iconSize +'>';
+							massiveReplaceString += '<img src = "../src/class/'+ nlclass + '/images/' + treeName +'/'+ imageName +'-off.jpg"border = "0" '+ iconSize +'>';
 						i++;
 					}
 					else
