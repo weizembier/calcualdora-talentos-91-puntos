@@ -144,9 +144,9 @@ for (var printTreeID = 0; printTreeID < numberOfTrees; printTreeID++) {
 						
 						massiveReplaceString += '</div></td></tr></table></td><td bgcolor = "#a5a5a5" width = "1"><div style = "width: 1px;"></div></td></tr><tr><td></td><td bgcolor = "#4f4f4f" height = "2"></td><td></td></tr></table></div></div></div>';
 						
-						massiveReplaceString += '<div style = "z-index: 99999; position: relative;"><div style = "top: -2px; left: -2px; position: absolute;"><img src = "../src/images/pixel.gif" width = "50px" height = "50px" border = "0" onClick = "rankTopOnClick('+ i +');" onMouseOver = "unhideTalent('+ i +');" onMouseOut = "hideTalent('+ i +');" onContextMenu = "rankTopOnRightClick('+ i +'); return false;" /></div></div>';
+						massiveReplaceString += '<div style = "z-index: 99999; position: relative;"><div style = "top: -2px; left: -2px; position: absolute;"><img src = "../images/pixel.gif" width = "50px" height = "50px" border = "0" onClick = "rankTopOnClick('+ i +');" onMouseOver = "unhideTalent('+ i +');" onMouseOut = "hideTalent('+ i +');" onContextMenu = "rankTopOnRightClick('+ i +'); return false;" /></div></div>';
 						
-						massiveReplaceString += '<div style = "z-index: 50; position: relative;"><div style = "top: -2px; left: -2px; position: absolute;"><img src = "../src/images/talents/icon-over-grey.gif" border = "0" /></div></div>';
+						massiveReplaceString += '<div style = "z-index: 50; position: relative;"><div style = "top: -2px; left: -2px; position: absolute;"><img src = "../images/talents/icon-over-grey.gif" border = "0" /></div></div>';
 
 
 
@@ -155,15 +155,15 @@ for (var printTreeID = 0; printTreeID < numberOfTrees; printTreeID++) {
 
 						//This has to do with "if the talent has points
 						if (rankTop[i][0] >= 1)
-							massiveReplaceString += '<div id = "iconOverGreen'+ i +'" style = "position: relative; z-index:50;"><div id = "iconOver"><img src = "src/images/talents/icon-over-green.gif" border = "0" /></div></div>';
+							massiveReplaceString += '<div id = "iconOverGreen'+ i +'" style = "position: relative; z-index:50;"><div id = "iconOver"><img src = "../images/talents/icon-over-green.gif" border = "0" /></div></div>';
 						else
-							massiveReplaceString += '<div id = "iconOverGreen'+ i +'" style = "visibility:hidden; position: relative; z-index:50;"><div id = "iconOver"><img src = "src/images/talents/icon-over-green.gif" border = "0"></div></div>';
+							massiveReplaceString += '<div id = "iconOverGreen'+ i +'" style = "visibility:hidden; position: relative; z-index:50;"><div id = "iconOver"><img src = "../images/talents/icon-over-green.gif" border = "0"></div></div>';
 
 						//This is if the talent has max points
 						if (rankTop[i][0] == talent[i][2])
-							massiveReplaceString += '<div id = "iconOverYellow'+ i +'" style = "position: relative; z-index:50;"><div id = "iconOver"><img src = "src/images/talents/icon-over-yellow.gif" border = "0"></div></div>';
+							massiveReplaceString += '<div id = "iconOverYellow'+ i +'" style = "position: relative; z-index:50;"><div id = "iconOver"><img src = "../images/talents/icon-over-yellow.gif" border = "0"></div></div>';
 						else 
-							massiveReplaceString += '<div id = "iconOverYellow'+ i +'" style = "visibility:hidden; position: relative; z-index:50;"><div id = "iconOver"><img src = "src/images/talents/icon-over-yellow.gif" border = "0"></div></div>';
+							massiveReplaceString += '<div id = "iconOverYellow'+ i +'" style = "visibility:hidden; position: relative; z-index:50;"><div id = "iconOver"><img src = "../images/talents/icon-over-yellow.gif" border = "0"></div></div>';
 
 						//This is if the talent can't have points..?
 						if (rankTop[i][0] == 0)							
