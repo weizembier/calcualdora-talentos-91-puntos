@@ -2,7 +2,7 @@ var lg = "/en"; // Example: /en
 
 var imgPath = "/talentcalcs/wotlk";
 var pixelGif = "/talentcalcs/shared/images/pixel.gif";
-var origin_url   = window.location.origin;
+var origin_url   = "https://weizembier.github.io/calcualdora-talentos-91-puntos/"; //window.location.origin;
 
 var textLevelRequired = "Level Required:";
 var textPointsLeft = "Points Left:";
