@@ -259,7 +259,7 @@ for (var printTreeID = 0; printTreeID < numberOfTrees; printTreeID++) {
 							}
 							
 						}
-							massiveReplaceString += '<img src = "/images/' + treeName +'/'+ imageName +'-off.jpg"border = "0" '+ iconSize +'>';
+							massiveReplaceString += '<img src = "images/' + treeName +'/'+ imageName +'-off.jpg"border = "0" '+ iconSize +'>';
 						i++;
 					}
 					else
