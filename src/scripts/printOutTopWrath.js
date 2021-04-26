@@ -328,7 +328,7 @@ canTurnGreen(0, 2, 1);
 
 }
 
-//changeCopyURL();
+changeCopyURL();
 
 jsLoaded=true;//needed for ajax script loading
 
