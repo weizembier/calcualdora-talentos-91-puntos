@@ -49,7 +49,7 @@ for (var printTreeID = 0; printTreeID < numberOfTrees; printTreeID++) {
 	massiveReplaceString += '<td class = "tabletopright"></td></tr>';
 	
 	massiveReplaceString += '<tr><td class = "tableleft"></td>';
-	massiveReplaceString += '<td  style = "background: url(\'../src/class/'+ nlclass +'/images/'+ imgDir + treeName +'/background.jpg\') #000000 no-repeat; background-size: 100% 100%;">';	
+	massiveReplaceString += '<td  style = "background: url(\'images/'+ imgDir + treeName +'/background.jpg\') #000000 no-repeat; background-size: 100% 100%;">';	
 	
 	massiveReplaceString += '<div id = "'+ treeID +'Tree">';
 
