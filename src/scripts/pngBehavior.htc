@@ -4,7 +4,7 @@
 
 var supported = /MSIE (5\.5)|[6789]/.test(navigator.userAgent) && navigator.platform == "Win32";
 var realSrc;
-var blankSrc = "/shared/wow-com/images/layout/pixel.gif";
+var blankSrc = "../images/pixel.gif";
 
 if (supported) fixImage();
 
