@@ -2,7 +2,7 @@ var lg = "/en"; // Example: /en
 
 var imgPath = "/talentcalcs/wotlk";
 var pixelGif = "/talentcalcs/shared/images/pixel.gif";
-var origin_url   = "https://weizembier.github.io/calcualdora-talentos-91-puntos/"; //window.location.origin;
+var origin_url   = window.location.origin;
 
 var textLevelRequired = "Level Required:";
 var textPointsLeft = "Points Left:";
@@ -18,7 +18,7 @@ var textNextRank = "Next Rank:";
 var requiresRequires = "Requires";
 var requiresPointsIn = "points in";
 var requiresTalents = "Talents";
-var theURLtoCopy = "" + origin_url + "/calcualdora-talentos-91-puntos/wotlk/" + nlclass + "?";
+var theURLtoCopy = "/calcualdora-talentos-91-puntos/wotlk/" + nlclass + "?";
 
 function getStringRequires(requirementPoints, requirementName) {
 	theS = "s";
