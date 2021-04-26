@@ -18,7 +18,7 @@ var textNextRank = "Next Rank:";
 var requiresRequires = "Requires";
 var requiresPointsIn = "points in";
 var requiresTalents = "Talents";
-var theURLtoCopy = "" + origin_url + "/calcualdora-talentos-91-puntos/wotlk/" + nlclass + "?";
+//var theURLtoCopy = "" + origin_url + "/calcualdora-talentos-91-puntos/wotlk/" + nlclass + "?";
 
 function getStringRequires(requirementPoints, requirementName) {
 	theS = "s";
