@@ -1,6 +1,6 @@
 var lg = "/en"; // Example: /en
 
-var imgPath = "/talentcalcs/wotlk";
+var imgPath =  "../class"; //"/talentcalcs/wotlk";
 var pixelGif = "/talentcalcs/shared/images/pixel.gif";
 var origin_url   = window.location.origin;
 

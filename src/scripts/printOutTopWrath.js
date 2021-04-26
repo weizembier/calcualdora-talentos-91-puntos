@@ -14,7 +14,7 @@ var imgDir = "";
 massiveReplaceString += '';
 
 //output the class information Warrior (0/0/0) etc.
-massiveReplaceString += '<div id="classInformation"><span id="resetAll"><a href="" onclick="resetTreeAll();return false;"><img src="../images/resetall.gif" border="0"></a></span><span id="classNameOverall"><span id="className"></span><span id="spec">(<span id="spec0" class="mySmallWhite">0</span>/<span id="spec1" class="mySmallWhite">0</span>/<span id="spec2" class="mySmallWhite">0</span>)</span></span><span id="PointsAvailOverall"><span id="PointsLeftText">Puntos Restantes:</span><span id="tabPointsAvailable" class="mySmallWhite">51</span></span><span id="requiredLevelOverall"><span id="requiredLevelText">Nivel Requerido: </span><span id="levelRequired" class="mySmallWhite">9</span></span></div>';
+massiveReplaceString += '<div id="classInformation"><span id="resetAll"><a href="" onclick="resetTreeAll();return false;"><img src="../../images/talents/resetall.png"" border="0"></a></span><span id="classNameOverall"><span id="className"></span><span id="spec">(<span id="spec0" class="mySmallWhite">0</span>/<span id="spec1" class="mySmallWhite">0</span>/<span id="spec2" class="mySmallWhite">0</span>)</span></span><span id="PointsAvailOverall"><span id="PointsLeftText">Puntos Restantes:</span><span id="tabPointsAvailable" class="mySmallWhite">51</span></span><span id="requiredLevelOverall"><span id="requiredLevelText">Nivel Requerido: </span><span id="levelRequired" class="mySmallWhite">9</span></span></div>';
 
 massiveReplaceString += '<div class="talentwrap1"><div class="talentwrap2"><table border = "0" cellpadding = "0" cellspacing = "0"><tr>';
 
@@ -285,7 +285,7 @@ for (var printTreeID = 0; printTreeID < numberOfTrees; printTreeID++) {
 	<tr>\
 		<td width="100%" nowrap class="tablebotbot">\
 			<div class="talenttreename">\
-				<img src="'+ imgPath +'/images/talents/trees/'+ nlclass + printTreeID +'.png" class="p talenttreeicon" align="left"><span class = "treeName">&nbsp;'+ tree[printTreeID] +'</span><span class = "treeColon">'+ textColon +' <span class = "treePoint" id="'+tree[printTreeID]+'tabPoints">'+ pointsTree[printTreeID] + '</span> <span class = "treePoints" id="'+tree[printTreeID]+'tabPointsText">'+ textPoints +'</span></span><a id = "hideReset'+ printTreeID +'" href = "" onclick = "resetTree('+ printTreeID +');return false;"><img src = "'+ imgPath +'/includes/images'+ lg +'/reset.gif" border = "0"></a></nobr>\
+				<img src="../../images/talents/trees/'+ nlclass + printTreeID +'.png" class="p talenttreeicon" align="left"><span class = "treeName">&nbsp;'+ tree[printTreeID] +'</span><span class = "treeColon">'+ textColon +' <span class = "treePoint" id="'+tree[printTreeID]+'tabPoints">'+ pointsTree[printTreeID] + '</span> <span class = "treePoints" id="'+tree[printTreeID]+'tabPointsText">'+ textPoints +'</span></span><a id = "hideReset'+ printTreeID +'" href = "" onclick = "resetTree('+ printTreeID +');return false;"><img src = "../../images/talents/reset.png"" border = "0"></a></nobr>\
 			</div>\
 		</td>\
 	</tr>\
