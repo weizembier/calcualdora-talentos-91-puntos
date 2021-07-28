@@ -1,6 +1,6 @@
 var i = 0;
 var t = 0;
-var nlclass = "deathknight";
+var nlclass = "Caballero De La Muerte";
 var nlclassPatch = "deathknight";
 
 nltree[i] = "Blood"; i++;

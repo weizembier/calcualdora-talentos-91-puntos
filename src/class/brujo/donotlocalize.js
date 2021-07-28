@@ -1,6 +1,6 @@
 var i = 0;
 var t = 0;
-var nlclass = "warlock";
+var nlclass = "brujo";
 var nlclassPatch = "warlock";
 
 nltree[i] = "Affliction"; i++;

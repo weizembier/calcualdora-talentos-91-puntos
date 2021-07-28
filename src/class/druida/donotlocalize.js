@@ -1,6 +1,6 @@
 var i = 0;
 var t = 0;
-var nlclass = "druid";
+var nlclass = "druida";
 var nlclassPatch = "druid";
 
 nltree[i] = "Balance"; i++;

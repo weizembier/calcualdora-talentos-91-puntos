@@ -1,6 +1,6 @@
 var i = 0;
 var t = 0;
-var nlclass = "priest";
+var nlclass = "sacerdote";
 var nlclassPatch = "priest";
 
 nltree[i] = "Discipline"; i++;

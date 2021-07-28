@@ -4,9 +4,9 @@ var t = 0;
 var className = "Paladin Talents";
 //var talentPath = "/info/basics/talents/";
 
-tree[i] = "Holy"; i++;
-tree[i] = "Protection"; i++;
-tree[i] = "Retribution"; i++;
+tree[i] = "Sagrado"; i++;
+tree[i] = "Proteccion"; i++;
+tree[i] = "Represion"; i++;
 
 i = 0;
 

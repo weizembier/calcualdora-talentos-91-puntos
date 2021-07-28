@@ -4,9 +4,9 @@ var t = 0;
 var className = "Death Knight Talents";
 //var talentPath = "/info/basics/talents/";
 
-tree[i] = "Blood"; i++;
-tree[i] = "Frost"; i++;
-tree[i] = "Unholy"; i++;
+tree[i] = "Sangre"; i++;
+tree[i] = "Escarcha"; i++;
+tree[i] = "Profano"; i++;
 
 i = 0;
 

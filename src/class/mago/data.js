@@ -4,9 +4,9 @@ var t = 0;
 var className = "Mage Talents";
 //var talentPath = "/info/basics/talents/";
 
-tree[i] = "Arcane"; i++;
-tree[i] = "Fire"; i++;
-tree[i] = "Frost"; i++;
+tree[i] = "Arcano"; i++;
+tree[i] = "Fuego"; i++;
+tree[i] = "Escarcha"; i++;
 
 i = 0;
 talent[i] = [0, "Arcane Subtlety", 2, 1, 1]; i++;

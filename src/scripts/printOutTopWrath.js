@@ -14,7 +14,7 @@ var imgDir = "";
 massiveReplaceString += '';
 
 //output the class information Warrior (0/0/0) etc.
-massiveReplaceString += '<div id="classInformation"><span id="resetAll"><a href="" onclick="resetTreeAll();return false;"><img src="../../images/talents/resetall.png"" border="0"></a></span><span id="classNameOverall"><span id="className"></span><span id="spec">(<span id="spec0" class="mySmallWhite">0</span>/<span id="spec1" class="mySmallWhite">0</span>/<span id="spec2" class="mySmallWhite">0</span>)</span></span><span id="PointsAvailOverall"><span id="PointsLeftText">Puntos Restantes:</span><span id="tabPointsAvailable" class="mySmallWhite">51</span></span><span id="requiredLevelOverall"><span id="requiredLevelText">Nivel Requerido: </span><span id="levelRequired" class="mySmallWhite">9</span></span></div>';
+massiveReplaceString += '<div id="classInformation"><span id="resetAll"><a href="" onclick="resetTreeAll();return false;"><img src="../../images/talents/resetall.png"" border="0"></a></span><span id="classNameOverall"><span id="className"></span><span id="spec">(<span id="spec0" class="mySmallWhite">0</span>/<span id="spec1" class="mySmallWhite">0</span>/<span id="spec2" class="mySmallWhite">0</span>)</span></span><span id="PointsAvailOverall"><span id="PointsLeftText">Puntos Restantes:</span><span id="tabPointsAvailable" class="mySmallWhite">91</span></span><span id="requiredLevelOverall"><span id="requiredLevelText">Nivel Requerido: </span><span id="levelRequired" class="mySmallWhite">9</span></span></div>';
 
 massiveReplaceString += '<div class="talentwrap1"><div class="talentwrap2"><table border = "0" cellpadding = "0" cellspacing = "0"><tr>';
 

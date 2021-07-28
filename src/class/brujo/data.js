@@ -4,9 +4,9 @@ var t = 0;
 var className = "Warlock Talents";
 //var talentPath = "/info/basics/talents/";
 
-tree[i] = "Affliction"; i++;
-tree[i] = "Demonology"; i++;
-tree[i] = "Destruction"; i++;
+tree[i] = "Afliccion"; i++;
+tree[i] = "Demonologia"; i++;
+tree[i] = "Destruccion"; i++;
 
 i = 0;
 

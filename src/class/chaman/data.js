@@ -5,8 +5,8 @@ var className = "Shaman Talents";
 //var talentPath = "/info/basics/talents/";
 
 tree[i] = "Elemental"; i++;
-tree[i] = "Enhancement"; i++;
-tree[i] = "Restoration"; i++;
+tree[i] = "Mejora"; i++;
+tree[i] = "Restauracion"; i++;
 
 i = 0;
 

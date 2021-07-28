@@ -5,8 +5,8 @@ var className = "Druid Talents";
 //var talentPath = "/info/basics/talents/";
 
 tree[i] = "Balance"; i++;
-tree[i] = "Feral Combat"; i++;
-tree[i] = "Restoration"; i++;
+tree[i] = "Combate Feral"; i++;
+tree[i] = "Restauracion"; i++;
 
 
 i = 0;

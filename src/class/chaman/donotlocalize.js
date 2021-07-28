@@ -1,6 +1,6 @@
 var i = 0;
 var t = 0;
-var nlclass = "shaman";
+var nlclass = "chaman";
 var nlclassPatch = "shaman";
 
 nltree[i] = "Elemental"; i++;

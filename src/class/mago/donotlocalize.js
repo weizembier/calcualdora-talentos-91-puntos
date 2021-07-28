@@ -1,6 +1,6 @@
 var i = 0;
 var t = 0;
-var nlclass = "mage";
+var nlclass = "mago";
 var nlclassPatch = "mage";
 
 nltree[i] = "Arcane"; i++;

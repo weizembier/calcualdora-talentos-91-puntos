@@ -1,6 +1,6 @@
 var i = 0;
 var t = 0;
-var nlclass = "hunter";
+var nlclass = "cazador";
 var nlclassPatch = "hunter";
 
 nltree[i] = "Beast Mastery"; i++;

@@ -4,9 +4,9 @@ var t = 0;
 var className = "Priest Talents";
 //var talentPath = "/info/basics/talents/";
 
-tree[i] = "Discipline"; i++;
-tree[i] = "Holy"; i++;
-tree[i] = "Shadow"; i++;
+tree[i] = "Disciplina"; i++;
+tree[i] = "Sagrado"; i++;
+tree[i] = "Sombras"; i++;
 
 i = 0;
 

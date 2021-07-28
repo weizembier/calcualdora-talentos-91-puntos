@@ -5,9 +5,9 @@ var t = 0;
 var className = "Hunter Talents";
 //var talentPath = "/info/basics/talents/";
 
-tree[i] = "Beast Mastery"; i++;
-tree[i] = "Marksmanship"; i++;
-tree[i] = "Survival"; i++;
+tree[i] = "Bestias"; i++;
+tree[i] = "Punteria"; i++;
+tree[i] = "Supervivencia"; i++;
 
 i = 0;
 talent[i] = [0, "Improved Aspect of the Hawk", 5, 2, 1]; i++;
